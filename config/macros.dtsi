@@ -1,3 +1,9 @@
+macro_sz: macro_sz{
+compatible = "zmk,behavior-macro";
+label = "macro_sz";
+#binding-cells = <0>;
+bindings = <&kt RALT>, <&kp S>, <&kt RIGHT_ALT>;
+};
 macro_oe: macro_oe{
 compatible = "zmk,behavior-macro";
 label = "macro_oe";
